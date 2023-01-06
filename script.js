@@ -34,7 +34,7 @@ class Alligator extends Animal {
     }
 
     eat() {
-        alert();
+        alert(this.name + " is getting hungry... the " + this.food + " that have overstayed there welcome need to be on the lookout!");
     }
 
 
@@ -46,7 +46,7 @@ class Sloth extends Animal {
     }
 
     sleep() {
-        alert();
+        alert("Slowly up the tree " + this.name + " climbes to munch on the " + this.food + " before taking a nap");
     }
 
 }
@@ -56,3 +56,9 @@ newRabbit.hide()
 
 let newCow = new Cow("Chester", "grass", 3)
 newCow.moo()
+
+let newAlligator = new Alligator("Sheila", "florida tourists")
+newAlligator.eat()
+
+let newSloth = new Sloth("Scooter", "leaves")
+newSloth.sleep()
