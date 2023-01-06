@@ -23,7 +23,7 @@ class Cow extends Animal {
     }
 
     moo() {
-        alert();
+        alert(this.name + " is going to keep mooing until sombody brings him some " + this.food);
     }
 
 }
@@ -51,7 +51,7 @@ class Sloth extends Animal {
 
 }
 
-let newRabbit = new Rabbit("Jimmy", "grass", 5)
+let newRabbit = new Rabbit("Jimmy", "carrots", 5)
 newRabbit.hide()
 
 let newCow = new Cow("Chester", "grass", 3)
