@@ -5,3 +5,7 @@ class Animal {
         this.name = animalName;
     }
 }
+
+class Rabbit extends Animal {
+    constructor()
+}
