@@ -12,7 +12,7 @@ class Rabbit extends Animal {
     }
 
     hide() {
-        alert("The dog is in yard" + this.name + " needs to stop eating " + this.food + " and go hide.");
+        alert("The dog is in yard, " + this.name + " needs to stop eating " + this.food + " and go hide.");
     }
 
 }
@@ -50,3 +50,9 @@ class Sloth extends Animal {
     }
 
 }
+
+let newRabbit = new Rabbit("Jimmy", "grass", 5)
+newRabbit.hide()
+
+let newCow = new Cow("Chester", "grass", 3)
+newCow.moo()
