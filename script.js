@@ -13,3 +13,7 @@ class Rabbit extends Animal {
 class Cow extends Animal {
     constructor()
 }
+
+class Alligator extends Animal {
+    constructor()
+}
