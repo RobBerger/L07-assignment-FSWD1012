@@ -7,25 +7,25 @@ class Animal {
 }
 
 class Rabbit extends Animal {
-    constructor() {
-        super();
+    constructor(name, food, speed) {
+        super(name, "carrots");
     }
 }
 
 class Cow extends Animal {
-    constructor() {
-        super();
+    constructor(name, food, speed) {
+        super(name, "grass");
     }
 }
 
 class Alligator extends Animal {
-    constructor() {
-        super();
+    constructor(name, food, speed) {
+        super(name, "florida tourists");
     }
 }
 
 class Sloth extends Animal {
-    constructor() {
-        super();
+    constructor(name, food, speed) {
+        super(name, "leaves");
     }
 }
