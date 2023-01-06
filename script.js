@@ -12,7 +12,7 @@ class Rabbit extends Animal {
     }
 
     hide() {
-        alert();
+        alert("The dog is in yard" + this.name + " needs to stop eating " + this.food + " and go hide.");
     }
 
 }
