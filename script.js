@@ -17,3 +17,7 @@ class Cow extends Animal {
 class Alligator extends Animal {
     constructor()
 }
+
+class Sloth extends Animal {
+    constructor()
+}
