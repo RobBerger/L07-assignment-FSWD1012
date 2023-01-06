@@ -33,9 +33,9 @@ class Alligator extends Animal {
         super(name, "florida tourists");
     }
 
-    eat(); {
+    eat() {
         alert();
-}
+    }
 
 
 }
